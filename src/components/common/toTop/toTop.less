@@ -1,0 +1,17 @@
+@import "../../../assets/css/mixin.less";
+.to-top-container {
+    height: 2rem;
+    width: 2rem;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    &.hidden-to-top {
+        opacity: 0;
+    }
+}

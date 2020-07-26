@@ -1,0 +1,136 @@
+// .main-header{
+//     background: #ffffff;
+// }
+.ant-layout-header {
+    position: relative;
+    background: #ffffff;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    z-index: 11;
+    // padding: 0 1rem;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.02), 0 1px 0 rgba(0, 0, 0, 0.02);
+    .main-header-left {
+        display: flex;
+    }
+    .main-header-right{
+
+        align-items: center;
+
+    }
+    .brand {
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        white-space: nowrap;
+        svg {
+            fill:rgb(0, 123, 255);
+        }
+    }
+    .ant-menu {
+        font-family: "Open Sans";
+        line-height: inherit;
+        box-shadow: none;
+        display: inline-block;
+        border: 0;
+        margin-bottom: 1px;
+        a {
+            color: #000000a6
+        }
+      }
+      .ant-menu-submenu-title {
+        padding: 0 1rem;
+      }
+      .ant-menu-submenu {
+        top: 2px;
+      }
+
+}
+
+.U-logo {
+  height: 3.4375rem;
+  padding: 0rem;
+  margin-top: 0.5rem;
+}
+
+.background-hover {
+  transition: all 0.3s ease-out;
+  &:hover {
+    background-color: #f9f9fc;
+  }
+}
+
+
+.rightContainer {
+  display: flex;
+  align-items: center;
+}
+
+
+.iconButton {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  cursor: pointer;
+  .background-hover();
+
+  &:hover {
+    .iconFont {
+      color: #3ebffa;
+    }
+  }
+
+  & + .iconButton {
+    margin-left: 8px;
+  }
+
+  .iconFont {
+    color: #b2b0c7;
+    font-size: 24px;
+  }
+}
+
+.notification {
+  padding: 24px 0;
+  width: 320px;
+  .notificationItem {
+    transition: all 0.3s;
+    padding: 12px 24px;
+    cursor: pointer;
+    &:hover {
+      background-color: #f9f9fc;
+    }
+  }
+  .clearButton {
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    cursor: pointer;
+    .background-hover();
+  }
+}
+
+.notificationPopover {
+  :global {
+    .ant-popover-inner-content {
+      padding: 0;
+    }
+    .ant-popover-arrow {
+      display: none;
+    }
+  }
+}
+
+
+@media (max-width:480px) {
+    .main-header-right{
+       display: none !important
+    }
+}

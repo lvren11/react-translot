@@ -1,0 +1,26 @@
+@import "../../../assets/css/index.less";
+.left-container {
+    width: 18.5rem;
+    box-sizing: border-box;
+    // flex: 1;
+  margin-top: 1.5rem;
+    padding: 0.5rem 0.45rem;
+    background: white;
+  border-radius: 0.2rem;
+    .title {
+        font-size: 1.25rem;
+        color: #282828;
+        font-weight: 600;
+        margin: 0;
+        text-transform: uppercase;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.25rem;
+        position: relative;
+        .border-bottom-trans();
+    }
+    &:hover {
+        .title:after {
+            width: 8rem;
+        }
+    }
+}

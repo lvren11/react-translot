@@ -1,0 +1,127 @@
+.container1 {
+  margin-top: 50px;
+  Display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone {
+  background-color: #36383F;
+  border-radius: 40px;
+  width: 300px;
+  height: 600px;
+  Display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 30px 50px 100px #85888C;
+}
+.content1 {
+  border: 1px solid #36383F;
+  border-radius: 20px;
+  width: 94%;
+  height: 91%;
+  background-color: #F5F6FA;
+
+}
+
+.start{
+  height: 7%;
+}
+
+.con{
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: flex;
+  overflow: hidden scroll;
+  height: 65%;
+}
+
+.List {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+.Item {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: end;
+  align-items: flex-end;
+}
+.Item + .Item {
+  margin-top: 2px;
+}
+
+.Avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  height: 32px;
+  width: 32px;
+}
+
+.Avatar-image {
+  display: block;
+  width: 100%;
+}
+
+.Messages {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}
+
+.Message {
+  color: white;
+  letter-spacing: 0.5px;
+  line-height: 1.25;
+  font-weight: 300;
+  margin: 1px;
+}
+
+.Message-inner {
+  background: #333;
+  display: inline-block;
+  max-width: 260px;
+  padding: 8px 16px;
+}
+
+.Item--left .Messages {
+  margin-left: 16px;
+}
+.Item--left .Message-inner {
+  border-radius: 0 16px 16px 0;
+}
+.Item--left .Message:first-child .Message-inner {
+  border-top-left-radius: 16px;
+}
+.Item--left .Message:last-child .Message-inner {
+  border-bottom-left-radius: 16px;
+}
+
+.Item--right {
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+.Item--right .Messages {
+  -webkit-box-align: end;
+  align-items: flex-end;
+}
+.Item--right .Message-inner {
+  background-attachment: fixed;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4A00E0), to(#FC466B));
+  background-image: linear-gradient(#4A00E0, #FC466B);
+  background-size: 100vw 100vh;
+  border-radius: 16px 0 0 16px;
+}
+.Item--right .Message:first-child .Message-inner {
+  border-top-right-radius: 16px;
+}
+.Item--right .Message:last-child .Message-inner {
+  border-bottom-right-radius: 16px;
+}

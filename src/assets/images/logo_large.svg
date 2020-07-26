@@ -1,0 +1,22 @@
+<svg width="658" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#4c4c4c" id="canvas_background" height="402" width="660" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#000" transform="matrix(20.88115349605603,0,0,16.096961857200313,-3580.141922753615,-1573.4617208007953) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_2" y="117.621235" x="174.108171" stroke-width="0" fill="#ffffff">T</text>
+  <ellipse stroke="#000" ry="21" rx="21" id="svg_8" cy="166.050001" cx="273.5" stroke-opacity="null" stroke-width="null" fill="#ffffff"/>
+  <text stroke="#000" transform="matrix(8.385900180690367,0,0,8.608154206398368,-2379.294591033024,-2295.6839437496174) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_10" y="303.647108" x="312.448553" stroke-opacity="null" stroke-width="0" fill="#ffffff">r</text>
+  <text stroke="#000" transform="matrix(5.181454074061832,0,0,5.757055118395653,-2127.133067131467,-1492.700028861966) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_12" y="314.334811" x="466.024597" stroke-opacity="null" stroke-width="0" fill="#ffffff">a</text>
+  <text stroke="#000" transform="matrix(5.218498387447192,0,0,4.446994128180392,-2013.477985720507,-1033.7532889717966) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_13" y="303.818016" x="452.485456" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#ffffff">n</text>
+  <text stroke="#000" transform="matrix(2.248742953742749,0,0,2.518795732934393,-784.924684789798,-466.17456730752724) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_15" y="311.221394" x="533.153415" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#ffffff">S</text>
+  <text style="cursor: move;" stroke="#000" transform="matrix(13.412402949290938,0,0,14.580241628606592,-6273.8842678106685,-4128.323172623012) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_16" y="304.75716" x="500.023384" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#ffffff">L</text>
+  <ellipse stroke="#000" ry="22.500001" rx="21.5" id="svg_17" cy="249.550002" cx="522" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <text stroke="#000" transform="matrix(5.442516326904296,0,0,2.2769431603686736,-2583.3232440948486,-301.05263739833396) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_21" y="251.559804" x="576.539059" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#ffffff">t</text>
+ </g>
+</svg>

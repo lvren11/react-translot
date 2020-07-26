@@ -1,0 +1,16 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+    <g>
+        <title>background</title>
+        <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+        <g display="none" overflow="visible" id="canvasGrid">
+            <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+        </g>
+    </g>
+    <g>
+        <title>Layer 1</title>
+        <text stroke="#000" transform="rotate(0.5642410516738892 264.05850219726466,154.1566162109402) matrix(17.56229972839355,0,0,12.848813176898444,-2174.6304811886375,-1066.8821521854316) " xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="24" id="svg_1" y="104.05" x="131.5" stroke-width="0" fill="#6D97AB">T</text>
+        <text stroke="#000" transform="matrix(5.293929576873779,0,0,4.5,-680.587837934494,-518.875) " xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="24" id="svg_3" y="173.05" x="158.5" stroke-opacity="null" stroke-width="0" fill="#6D97AB">L</text>
+        <text stroke="#000" transform="matrix(2.8746948242187496,0,0,2.6142559082470296,-697.9674377441406,-225.60823505329915) " xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="24" id="svg_4" y="147.009932" x="307.325644" stroke-opacity="null" stroke-width="0" fill="#6D97AB">O</text>
+    </g>
+</svg>
